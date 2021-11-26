@@ -1,2 +1,2 @@
 # one-page-project
- practicing with YouTube tutorial
+ practicing with YouTube tutorial and more
