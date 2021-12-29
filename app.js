@@ -14,10 +14,10 @@ hamburger.addEventListener("click", ()=>{
 });
 
 // close the menu when you click menu-item
-menuItem.forEach((item) => {
+menuItem.forEach(item => {
     item.addEventListener("click", () => {
-        hamburger.classList.toggle("active");
-        mobileMenu.classList.toggle("active");
+        hamburger.classList.remove("active");
+        mobileMenu.classList.remove("active");
     });
 });
 
